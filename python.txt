@@ -1,0 +1,45 @@
+ 
+ Python
+ 
+  It's supports both functional and oop language.
+
+  it's used in distributed environment
+
+  it's  platform independent language.
+  
+ (processor + os = platform)
+
+ source code -> compile -> byte code (pyc) -> pvm (python virtual machine ) -> machine code.
+  
+# creating object.
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+# Creating an object using the constructor
+car1 = Car("Toyota", "Corolla")
+print(car1.brand, car1.model)  # Output: Toyota Corolla
+
+
+class Display:
+    def printing(self):
+        print("hello")
+
+
+if __name__ == '__main__':
+
+    # "Run this part of the code only if this script is executed directly, not when imported into another script."
+    
+    # _name__ is a special built-in variable in Python.
+
+    # It stores the name of the current script/module.
+
+    # Its value changes based on how the script is executed:
+    
+    obj = Display()  # Creating an object of the class
+    obj.printing()   # Calling the method
+
+ 
+ 
+ 
