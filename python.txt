@@ -1,17 +1,17 @@
  
  Python
  
-  It's supports both functional and oop language.
+ 1. It's supports both functional and oop language.
 
-  it's used in distributed environment
+ 2. it's used in distributed environment
 
-  it's  platform independent language.
+ 3.  it's  platform independent language.
   
- (processor + os = platform)
+ 4. (processor + os = platform)
 
- source code -> compile -> byte code (pyc) -> pvm (python virtual machine ) -> machine code.
+ 5. source code -> compile -> byte code (pyc) -> pvm (python virtual machine ) -> machine code.
   
-# creating object.
+6. # creating object.
 class Car:
     def __init__(self, brand, model):
         self.brand = brand
@@ -21,7 +21,7 @@ class Car:
 car1 = Car("Toyota", "Corolla")
 print(car1.brand, car1.model)  # Output: Toyota Corolla
 
-
+7. Ensuring Script Runs Only When Executed Directly in Python 
 class Display:
     def printing(self):
         print("hello")
