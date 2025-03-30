@@ -1,0 +1,13 @@
+read
+
+file =open("filepath","r ")
+print(file.read())
+file.close() 
+
+write
+
+file =open("filepath","w" )
+file.write("data"))
+file.close() 
+
+Partial Function
