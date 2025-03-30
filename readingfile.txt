@@ -10,4 +10,3 @@ file =open("filepath","w" )
 file.write("data"))
 file.close() 
 
-Partial Function
