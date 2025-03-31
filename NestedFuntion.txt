@@ -1,0 +1,13 @@
+
+ Nested Function
+  
+ Function inside the another function .
+
+def outerfun (message):
+    print("outer"+message)
+    def innerfun():
+       print("inner"+message)
+    innerfun()       
+       
+print(outerfun("function"))       
+       
