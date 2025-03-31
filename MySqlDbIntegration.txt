@@ -1,0 +1,20 @@
+
+ How to Connect python mysql integration
+
+we need to install respective db connector
+import mysql.connector
+
+mydb=mysql.connector.connect(
+host="localhost",
+user="root",
+passwrid="123"
+databasr="test"
+)
+# cursor helps to use queries
+mycursor=mydb.cursor () 
+mycursor.execute(select*from orders)
+data=mycursor.fetchall()
+for  x in data:
+      print(x)
+   
+
