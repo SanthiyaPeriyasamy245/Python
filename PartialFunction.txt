@@ -1,0 +1,19 @@
+ 
+  Partial Function
+
+  partial - keyword
+
+  def multiply(x, y):
+        return x * y
+
+# create a new function that multiplies by 2
+dbl = partial(multiply, 2)
+print(dbl(4))
+
+When to Use partial :
+
+When you need specialized versions of a function with some arguments pre-filled.
+
+When you want to avoid writing extra wrapper functions.
+
+When working with higher-order functions, callbacks, or functional programming.
