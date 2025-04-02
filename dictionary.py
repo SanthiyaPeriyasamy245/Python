@@ -1,5 +1,5 @@
  
-# dictionary stores values in key value pair. {key:pair,...}
+# dictionary stores values in key value pair. {key:pair,...} keys are always the string type
 
 data={"name":"santhiya","age":18,"profession":"Doctor"}
 print(data)
