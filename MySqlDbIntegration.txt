@@ -7,8 +7,8 @@ import mysql.connector
 mydb=mysql.connector.connect(
 host="localhost",
 user="root",
-passwrid="123"
-databasr="test"
+passwordid="123"
+database="test"
 )
 # cursor helps to use queries
 mycursor=mydb.cursor () 
